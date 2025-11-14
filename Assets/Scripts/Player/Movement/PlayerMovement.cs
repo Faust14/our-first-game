@@ -52,8 +52,8 @@ namespace Game.Player.Movement
             var vel = _rb.linearVelocity;
 
             float moveSpeed = (_stats != null && _stats.MoveSpeed > 0f)
-                ? _stats.MoveSpeed
-                : _cfg.MoveSpeed;
+                ? _cfg.MoveSpeed
+                : _stats.MoveSpeed;
 
             vel.x = dir.x * moveSpeed;
             _rb.linearVelocity = vel;
@@ -79,21 +79,23 @@ namespace Game.Player.Movement
                 _wantJump = true;
                 _jumpBufferTimer = 0f;
             }
+
+            Debug.Log($"MoveSpeed stats={_stats?.MoveSpeed}, cfg={_cfg.MoveSpeed}, used={moveSpeed}");
         }
 
         public void FixedTick(float fdt)
         {
-             if (_rb == null)
-    {
-        Debug.LogError("PlayerMovement: _rb je NULL u Tick!");
-        return;
-    }
+            if (_rb == null)
+            {
+                Debug.LogError("PlayerMovement: _rb je NULL u Tick!");
+                return;
+            }
 
             if (_wantJump)
             {
                 float jumpForce = (_stats != null && _stats.JumpForce > 0f)
-                    ? _stats.JumpForce
-                    : _cfg.JumpForce;
+                    ? _cfg.JumpForce
+                    : _stats.JumpForce;
 
                 // Resetuj vertikalnu brzinu pa dodaj impuls
                 _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, 0f);
