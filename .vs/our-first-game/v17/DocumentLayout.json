@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\igorc\\Desktop\\dimin moj projekat\\our-first-game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D282AFAA-C925-B671-C723-D5E5779973EF}|Assembly-CSharp.csproj|c:\\users\\igorc\\desktop\\dimin moj projekat\\our-first-game\\assets\\scripts\\player\\abilities\\abilitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D282AFAA-C925-B671-C723-D5E5779973EF}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\abilities\\abilitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AbilityBase.cs",
+              "DocumentMoniker": "C:\\Users\\igorc\\Desktop\\dimin moj projekat\\our-first-game\\Assets\\Scripts\\Player\\Abilities\\AbilityBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Abilities\\AbilityBase.cs",
+              "ToolTip": "C:\\Users\\igorc\\Desktop\\dimin moj projekat\\our-first-game\\Assets\\Scripts\\Player\\Abilities\\AbilityBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Abilities\\AbilityBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T18:44:08.835Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
