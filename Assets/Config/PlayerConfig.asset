@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9537c768b94a6e54fb32e6f54191874c, type: 3}
+  m_Name: PlayerConfig
+  m_EditorClassIdentifier: 
+  ClassCatalog:
+  - {fileID: 0}
+  DefaultClass: 0
+  BaseHealth: 100
+  BaseMana: 50
+  BaseDamage: 10
+  MoveSpeed: 1
+  JumpForce: 2
+  Acceleration: 12
+  AttackSpeed: 1
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  GroundCheckDistance: 0.2
+  MaxFallSpeed: -25
+  GravityScale: 3.5
+  FlipSpeed: 12
+  MoveAction: Move
+  JumpAction: Jump
+  AttackAction: Attack
+  DashAction: Dash
+  Ability1Action: Ability1
+  Ability2Action: Ability2
