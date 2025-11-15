@@ -96,8 +96,6 @@ namespace Game.Player.Movement
                 float jumpForce = (_stats != null && _stats.JumpForce > 0f)
                     ? _cfg.JumpForce
                     : _stats.JumpForce;
-                    ? _cfg.JumpForce
-                    : _stats.JumpForce;
 
                 // Resetuj vertikalnu brzinu pa dodaj impuls
                 _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, 0f);
