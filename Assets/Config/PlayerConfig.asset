@@ -18,15 +18,15 @@ MonoBehaviour:
   BaseHealth: 100
   BaseMana: 50
   BaseDamage: 10
-  MoveSpeed: 20
-  JumpForce: 2
+  MoveSpeed: 8
+  JumpForce: 20
   Acceleration: 12
   AttackSpeed: 1
   GroundLayer:
     serializedVersion: 2
     m_Bits: 8
   GroundCheckDistance: 0.2
-  MaxFallSpeed: -25
+  MaxFallSpeed: 0
   GravityScale: 3.5
   FlipSpeed: 12
   MoveAction: Move
