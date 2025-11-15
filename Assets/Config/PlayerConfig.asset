@@ -19,7 +19,7 @@ MonoBehaviour:
   BaseMana: 50
   BaseDamage: 10
   MoveSpeed: 5
-  JumpForce: 2
+  JumpForce: 12
   Acceleration: 12
   AttackSpeed: 1
   GroundLayer:

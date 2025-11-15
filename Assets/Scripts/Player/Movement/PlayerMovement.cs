@@ -52,8 +52,8 @@ namespace Game.Player.Movement
             var vel = _rb.linearVelocity;
 
             float moveSpeed = (_stats != null && _stats.MoveSpeed > 0f)
-                ? _cfg.MoveSpeed
-                : _stats.MoveSpeed;
+                ?_cfg.MoveSpeed
+                :  _stats.MoveSpeed;
 
             vel.x = dir.x * moveSpeed;
             _rb.linearVelocity = vel;
@@ -94,6 +94,8 @@ namespace Game.Player.Movement
             if (_wantJump)
             {
                 float jumpForce = (_stats != null && _stats.JumpForce > 0f)
+                    ? _cfg.JumpForce
+                    : _stats.JumpForce;
                     ? _cfg.JumpForce
                     : _stats.JumpForce;
 
