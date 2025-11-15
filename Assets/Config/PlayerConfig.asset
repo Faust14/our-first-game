@@ -18,8 +18,8 @@ MonoBehaviour:
   BaseHealth: 100
   BaseMana: 50
   BaseDamage: 10
-  MoveSpeed: 1
-  JumpForce: 2
+  MoveSpeed: 5
+  JumpForce: 12
   Acceleration: 12
   AttackSpeed: 1
   GroundLayer:
