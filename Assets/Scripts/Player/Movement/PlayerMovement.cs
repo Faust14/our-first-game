@@ -52,7 +52,7 @@ namespace Game.Player.Movement
             var vel = _rb.linearVelocity;
 
             float moveSpeed = (_stats != null && _stats.MoveSpeed > 0f)
-                ?_cfg.MoveSpeed
+                ?  _cfg.MoveSpeed
                 :  _stats.MoveSpeed;
 
             vel.x = dir.x * moveSpeed;
