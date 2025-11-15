@@ -18,7 +18,7 @@ MonoBehaviour:
   BaseHealth: 100
   BaseMana: 50
   BaseDamage: 10
-  MoveSpeed: 5
+  MoveSpeed: 20
   JumpForce: 2
   Acceleration: 12
   AttackSpeed: 1
